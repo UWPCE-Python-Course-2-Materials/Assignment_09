@@ -74,6 +74,7 @@ Any other files required by your implementation of this assignment.
 * Your code needs to be able to create the image directories and populate them with the names of image files. Note that you will not be storing any real image files: just their names. You will need to create an empty (or one with meaningless data) file to get it on the filesystem.
 
 * For testing, if your test database does not run from memory, you will need to add code to delete the .db file that is created after every test run.
+* DO NOT USE ``os.walk`` for traversing directories. It works, but the goal for this assignment is to use recursion (i.e., a function calling itself).
 
 ## How will your code be evaluated?
 
